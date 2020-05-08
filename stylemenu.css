@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+padding:0 40px;
+}
+
+h1{
+text-align: center;
+font-family: 'Acme', sans-serif;
+text-transform: uppercase;
+}
+
+div{
+border:3px solid black;
+margin-bottom: 20px;
+background-color: grey;
+}
+
+.dish1{
+  margin:0;
+  float:right;
+  background-color: pink;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 0 65px;
+}
+
+h2{
+  font-family: 'Acme', sans-serif;
+}
+
+.dish2{
+  margin:0;
+  float:right;
+  background-color: red;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  color:white;
+  padding: 0 45px;
+}
+
+.dish3{
+  margin:0;
+  float:right;
+  background-color: yellow;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 0 50px;
+}
+
+p{
+  clear:right;
+  margin: 0;
+  padding:10px 20px;
+  font-family: 'Acme', sans-serif;
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+.mq1{
+margin-right: 26px;
+width:48%;
+float:left;
+
+}
+.mq2{
+width:48%;
+float:left;
+}
+.mq3{
+  clear:left;
+}
+}
+
+@media (min-width:992px)
+{
+  .mq1{
+    width:32%;
+    float:left;
+    margin-right:13px;
+  }
+
+  .mq2{
+    width:32%;
+    float:left;
+    margin-right:13px;
+  }
+
+  .mq3{
+    width:32%;
+    float:left;
+  }
+}
